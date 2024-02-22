@@ -64,7 +64,6 @@ app.post("/user/register", async (req, res) => {
   res.json({
     message: "Account created successfuly",
     name,
-    surname,
     email,
     id: newUser[0].id,
   });
